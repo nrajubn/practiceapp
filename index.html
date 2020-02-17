@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Maitre D Practice App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="raju.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+
+    <h1>Maitre D</h1>
+    <main>
+
+
+        <div class="bill" name="bill" id="bill">
+
+            <div><label>Total: </label><input type="number" name="total" placeholder="Enter Total" id="total"></div>
+            <div> <label>Rate: </label><input type="number" name="rate" placeholder="Enter tip rate" id="rate"></div>
+        </div>
+
+        <div id="output">
+            <div class="output">Tip: </div>
+            <div class="output1" id="tip">$</div>
+            <br><br>
+            <div class="output">Tax: </div>
+            <div class="output1" id="tax">$</div>
+            <br><br>
+            <div class="output">Grand Total: </div>
+            <div class="output1" id="grandtotal">$</div>
+            <br><br>
+            <div><input type="submit" value="Calculate" name="submit" onclick="Bill()"></div>
+        </div>
+        <br><br>
+        <footer>
+            <div>&copy; 2020 raju nooka</div>
+        </footer>
+
+</body>
+</main>
+</html>
