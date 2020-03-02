@@ -10,7 +10,7 @@ body    {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:burlywood;
+    background-color:rgb(170, 222, 135);
 }
 .bill {
     display: flex;
