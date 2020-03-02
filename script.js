@@ -1,9 +1,5 @@
-function Bill(){
-    let total = parseFloat(document.getElementById("total").value);
-    console.log(typeof total);
-    let rate = parseFloat(document.getElementById("rate").value);
-    document.getElementById("tip").innerHTML = "$" + total*rate/100;
-    document.getElementById("tax").innerHTML = "$" + total*5.50/100;
-    document.getElementById("grandtotal").innerHTML = "$" + (total + (total*rate/100) + (total*5.50/100));
-    return false;
+function Area(){
+    var radius = Number(document.getElementById('rd').value);
+    var areaCircle = Math.PI * radius * radius;
+    document.getElementById('AC').value = areaCircle.toFixed(3);
 }
